@@ -486,3 +486,9 @@ Provide:
 This skill is based on [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), maintained by WikiProject AI Cleanup. The patterns documented there come from observations of thousands of instances of AI-generated text on Wikipedia.
 
 Key insight from Wikipedia: "LLMs use statistical algorithms to guess what should come next. The result tends toward the most statistically likely result that applies to the widest variety of cases."
+
+### Real-world examples
+
+The `references/` directory contains before/after examples from real-world AI-generated text:
+
+- **KRS Channel astrology article** — A published, currently-live AI-generated article about an astrology YouTube channel. 875 words of pure modern AI slop: "fostering" x4, "navigate" x3, "transformative" x3, "holistic" x2, 17 boldface instances, negative parallelisms, and identical paragraph structure throughout. The scanner scored it 12.6/100w (MODERATE) before and 0.0 after humanisation. The rewrite cut it to 323 words with actual opinions and specifics. See `references/krs_astrology_article_before.txt` and `references/krs_astrology_article_after.txt`.
